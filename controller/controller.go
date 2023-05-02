@@ -22,6 +22,12 @@ var albums = []models.Album{
 	{ID: "8", Title: "Dark Necessities", Artist: "Red Hot Chilli Peppers", Price: 39.99},
 	{ID: "9", Title: "Dream On", Artist: "Aerosmith", Price: 37.99},
 	{ID: "10", Title: "Seven Nation Army", Artist: "The White Stripes", Price: 32.99},
+	{ID: "11", Title: "Thunder", Artist: "Imagine Dragons", Price: 29.99},
+	{ID: "12", Title: "Patience", Artist: "Guns Roses", Price: 31.99},
+	{ID: "13", Title: "Hear Me Now", Artist: "Alok", Price: 40.99},
+	{ID: "14", Title: "As It Was", Artist: "Harry Styles", Price: 35.99},
+	{ID: "15", Title: "Adventure Of Lifetime", Artist: "Coldplay", Price: 30.99},
+	{ID: "16", Title: "Radioactive", Artist: "Imagine Dragons", Price: 42.99},
 }
 
 func GetAlbums(c *gin.Context) {
